@@ -1,10 +1,47 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>I Am Reno</title>
-</head>
-<body>
-  <h1>I Am Reno</h1>
-  <p>Campaign site coming online.</p>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>I Am Reno</title>
+    <meta name="description" content="A veteran, auditor, and systems-builder running for Mayor to make Reno’s government as accountable and future-ready as its people." />
+    <style>
+      :root { color-scheme: light; }
+      body{ margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; }
+      .wrap{ min-height:100vh; display:flex; align-items:center; justify-content:center; padding:32px; }
+      .card{ width:min(720px, 100%); border:1px solid #e5e7eb; border-radius:16px; padding:28px; box-shadow:0 10px 30px rgba(0,0,0,.06); }
+      h1{ margin:0 0 12px; font-size:44px; letter-spacing:-.02em; }
+      p{ margin:0 0 14px; font-size:18px; line-height:1.5; color:#111827; }
+      .muted{ color:#4b5563; }
+      form{ margin-top:18px; display:flex; gap:10px; }
+      input{ flex:1; padding:14px 14px; font-size:16px; border:1px solid #d1d5db; border-radius:12px; }
+      button{ padding:14px 16px; font-size:16px; border:0; border-radius:12px; cursor:pointer; background:#111827; color:#fff; }
+      .links{ margin-top:16px; display:flex; gap:14px; font-size:14px; }
+      a{ color:#111827; text-decoration:none; border-bottom:1px solid rgba(17,24,39,.25); }
+      a:hover{ border-bottom-color: rgba(17,24,39,.8); }
+      .note{ margin-top:10px; font-size:12px; color:#6b7280; }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="card" aria-label="hero">
+        <h1>I Am Reno.</h1>
+        <p class="muted">A veteran, auditor, and systems-builder running for Mayor to make Reno’s government as accountable and future-ready as its people.</p>
+        <p>Honest numbers. Radical transparency. Smart growth that protects Reno’s future instead of mortgaging it.</p>
+
+        <!-- TEMP FORM. Next step: replace <form> with Beehiiv embed code -->
+        <form action="#" method="post" onsubmit="alert('Beehiiv embed goes here next.'); return false;">
+          <input type="email" name="email" placeholder="email address" required />
+          <button type="submit">count me in</button>
+        </form>
+        <div class="note">by signing up you’ll get launch updates + receipts. no spam.</div>
+
+        <div class="links">
+          <a href="/docs/">read the plan</a>
+          <a href="/legal/">ip + rules</a>
+          <a href="/site/">dev folder</a>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
