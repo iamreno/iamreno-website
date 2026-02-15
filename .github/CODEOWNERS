@@ -1,0 +1,9 @@
+# require your review for everything in this repo
+* @jsphschmtt
+
+# extra explicit for the website
+/site/** @jsphschmtt
+/docs/** @jsphschmtt
+/legal/** @jsphschmtt
+
+
